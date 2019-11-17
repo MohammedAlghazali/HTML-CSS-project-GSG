@@ -1,0 +1,242 @@
+/* Start Header Style */
+
+header {
+    margin:20px 0 2% 30px;
+    height: 30px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.b1 {
+    background-color: #004D40;
+    color: #FFF;
+    border:0.1px solid #fff;
+    border-radius:50%;
+    height: 30px;
+    width: 30px;
+    float: left;
+    cursor: pointer;
+}
+
+.b2 {
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+    margin:5px 0 5px 20px;
+    text-align: center;
+    cursor: pointer;
+    float:left;
+}
+
+.fa-th-list:before {
+    color: #6d6b6b;
+    font-size: 20px;
+}
+
+.a1 { 
+    display: inline;
+    height: 30px;
+    width: 30px;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.a2 { 
+    display: inline;
+    height: 30px;
+    width: 30px;
+    float: left;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.a1 a {
+    text-decoration:none;
+    color:#000;
+    font-size: 15px;
+    font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
+}
+
+.a2 a {
+    text-decoration:none;
+    color:#000;
+    font-size: 13px;
+    font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
+}
+
+.a1 a:hover{
+    text-decoration:underline;
+    color: #777777;
+}
+
+.a2 a:hover{
+    text-decoration:underline;
+    color: #777777;
+}
+
+/* End Header Style */
+
+/* Start Google logo Style */
+
+.google-logo {
+    text-align: center;
+    padding-top: 3%;
+}
+
+/* Start Google search box Style */
+
+.search-box  {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-box input {
+    width: 600px;
+    height: 45px;
+    margin-left: 0;
+    border: 1px solid #d6d6de;
+    border-radius: 40px;
+    text-align: right;
+    padding-right: 35px;
+}
+
+.search-box .a{
+    margin-left: -580px;
+    border: 0.1px solid #fff;
+    border-radius: 50%;
+}
+
+.fa-microphone:before {
+    color: #4285F4;
+}
+
+.search-box .b{
+    margin-left: 20px;
+    border: 0.1px solid #fff;
+    border-radius: 50%;
+}
+
+.fa-keyboard:before {
+    color: #6d6b6b;
+}
+
+.search-box .c{
+    margin-left: 485px;
+    border: 0.1px solid #fff;
+    border-radius: 50%;
+}
+
+/* End Google search box Style */
+
+/* Start Google search button Style */
+
+.search-button {
+    text-align: center;
+    margin: 25px 0 ;
+}
+
+.fa-search:before {
+    color: #9AA0A6;
+    font-size: small;
+}
+
+.search-button button {
+    color: #5F6368;
+    background-color: #f2f2f2;
+    height: 36px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+/* End Google search button Style */
+
+/* Start Google Word Style */
+
+.word {
+    text-align: center;
+}
+.word a {
+    color:#1A0DBE;
+    cursor: pointer;
+}
+
+
+
+/* End Google Word Style */
+
+/* Start Location Style */
+
+.location {
+    background-color: #F2F2F2;
+    text-align: right;
+    padding: 15px 20px 14px 10px;
+    border: 1px solid #E4E4E4;
+    color: #6d6b6b;
+    font-size: 13px;
+}
+
+/* End Location Style */
+
+/* Start Footer Style */
+
+footer {
+    margin-top: 3%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.end-footer {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.right {
+    text-align: right;
+    float: right;
+    padding: 0 0 15px 0;
+}
+
+.left {
+    text-align: left;
+    float: left;
+    padding: 0 0 6px 0;
+    margin-left: -25px;
+}
+
+.right ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 15px;
+    float: left;
+    font-size: 13px;
+}
+
+.left ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 15px;
+    float: right;
+    font-size: 13px;
+}
+
+ul li a {
+    color: #6d6b6b;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration:underline;
+}
+
+
+/* End Footer Style */
